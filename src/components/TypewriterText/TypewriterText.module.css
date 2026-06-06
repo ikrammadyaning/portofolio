@@ -1,0 +1,15 @@
+.typewriter {
+  display: inline;
+}
+
+.text {
+  color: var(--accent-blue);
+  font-weight: 600;
+}
+
+.cursor {
+  color: var(--accent-blue);
+  font-weight: 300;
+  animation: blink 0.7s infinite;
+  margin-left: 2px;
+}

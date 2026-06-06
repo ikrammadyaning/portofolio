@@ -1,0 +1,71 @@
+.contact {
+  padding: 120px 0 60px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: slideInLeft 0.6s ease;
+}
+
+.infoCard {
+  background: var(--bg-card);
+  border-radius: 16px;
+  padding: 28px;
+  border: var(--card-border);
+  transition: all 0.3s ease;
+}
+
+.infoCard:hover {
+  border-color: var(--accent-blue);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.infoIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--accent-glow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-blue);
+  margin-bottom: 16px;
+}
+
+.infoTitle {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--text-primary);
+}
+
+.infoText {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.formWrapper {
+  animation: slideInRight 0.6s ease;
+}
+
+@media (max-width: 968px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

@@ -1,0 +1,128 @@
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.success {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 20px;
+  border-radius: 10px;
+  background: rgba(0, 200, 83, 0.1);
+  border: 1px solid rgba(0, 200, 83, 0.3);
+  color: #00c853;
+  font-weight: 500;
+  animation: slideDown 0.3s ease;
+}
+
+.field {
+  position: relative;
+}
+
+.input, .textarea {
+  width: 100%;
+  padding: 16px 18px;
+  border-radius: 12px;
+  border: 2px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.input:focus, .textarea:focus {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.inputError {
+  border-color: #ff4444;
+}
+
+.inputError:focus {
+  box-shadow: 0 0 0 3px rgba(255, 68, 68, 0.15);
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.label {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--bg-card);
+  padding: 0 6px;
+  color: var(--text-muted);
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.textarea ~ .label {
+  top: 18px;
+  transform: none;
+}
+
+.input:focus ~ .label,
+.textarea:focus ~ .label,
+.input:not(:placeholder-shown) ~ .label,
+.textarea:not(:placeholder-shown) ~ .label {
+  top: -10px;
+  transform: none;
+  font-size: 0.8rem;
+  color: var(--accent-blue);
+}
+
+.error {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: #ff4444;
+  animation: slideDown 0.2s ease;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.submitBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--gradient-primary);
+  transition: all 0.3s ease;
+}
+
+.submitBtn:hover {
+  box-shadow: 0 0 30px var(--accent-glow);
+  transform: translateY(-2px);
+}
+
+.resetBtn {
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  border: 2px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.resetBtn:hover {
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+}

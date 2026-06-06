@@ -1,0 +1,42 @@
+:root {
+  /* Light Theme */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f0f2f5;
+  --bg-card: #ffffff;
+  --bg-nav: rgba(255, 255, 255, 0.85);
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4a6a;
+  --text-muted: #8888a0;
+  --accent-blue: #0066ff;
+  --accent-purple: #7c3aed;
+  --accent-glow: rgba(0, 102, 255, 0.2);
+  --border-color: #e0e0e8;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.1);
+  --gradient-primary: linear-gradient(135deg, #0066ff, #7c3aed);
+  --gradient-bg: linear-gradient(135deg, #f0f2f5, #e8ecf1);
+  --nav-blur: blur(12px);
+  --card-border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0a0a1a;
+  --bg-secondary: #0f0f2a;
+  --bg-card: #16163a;
+  --bg-nav: rgba(10, 10, 26, 0.85);
+  --text-primary: #e8e8f0;
+  --text-secondary: #a0a0c0;
+  --text-muted: #606080;
+  --accent-blue: #00d4ff;
+  --accent-purple: #a855f7;
+  --accent-glow: rgba(0, 212, 255, 0.15);
+  --border-color: #2a2a4a;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.4);
+  --gradient-primary: linear-gradient(135deg, #00d4ff, #a855f7);
+  --gradient-bg: linear-gradient(135deg, #0a0a1a, #0f0f2a);
+  --nav-blur: blur(12px);
+  --card-border: 1px solid var(--border-color);
+}
