@@ -20,7 +20,7 @@ const Contact = () => {
                 </svg>
               </div>
               <h3 className={styles.infoTitle}>Email</h3>
-              <p className={styles.infoText}>[ikram]ikrammadyaning@gmail.com</p>
+              <p className={styles.infoText}>ikrammadyaning@gmail.com</p>
             </div>
 
             <div className={styles.infoCard}>
