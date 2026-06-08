@@ -55,7 +55,7 @@ const Dashboard = () => {
                 <line x1="12" y1="17" x2="12" y2="21" />
               </svg>
             </div>
-            <h3 className={styles.cardNumber}>3</h3>
+            <h3 className={styles.cardNumber}>6</h3>
             <p className={styles.cardLabel}>Sertificate</p>
           </div>
         </div>

@@ -19,6 +19,13 @@ const education = [
     degree: "Student",
     year: "2024 - Present",
     description: "Focusing on Islamic studies, software engineering, and web development."
+  },
+  {
+    id: 4,
+    school: "Global English Pare course",
+    degree: "Member of English Course",
+    year: "January - February 2026",
+    description: "learn English directly from the tutor and learn how to teach too"
   }
 ];
 

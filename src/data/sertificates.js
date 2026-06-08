@@ -36,6 +36,17 @@ const experiences = [
     id: 5,
     role: "Belajar Membuat Front-End Web untuk Pemula",
     company: "Dicoding",
+    year: "Processing....",
+    description: "learn how to create a simple front-end website using HTML, CSS, and JavaScript",
+    link: "#"
+  },
+  {
+    id: 6,
+    role: "Spec-Driven Development dengan kiro",
+    company: "Dicoding",
+    year: "June - 2026",
+    description: "learn how we understand ai and how to use kiro to create a simple website using ai",
+    link: "https://drive.google.com/file/d/1su9upa9N_ju5TwE4YXIqCYmU7UKuMhMW/view?usp=sharing"
   }
 ];
 
